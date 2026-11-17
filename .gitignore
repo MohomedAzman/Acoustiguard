@@ -1,0 +1,36 @@
+# Python virtual environments
+venv/
+.venv/
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# Local application databases and backups
+*.db
+*.sqlite
+*.sqlite3
+
+# Local logs and tool output
+*.log
+flake8_output.txt
+
+# PyInstaller intermediate and packaged outputs
+/build/
+/dist/
+/build_release/
+/dist_release/
+/release_output/
+
+# Local editor and assistant configuration; commit only if intentionally shared
+.vscode/
+.continue/
+
+# Local installer instruction note
+/Step 5 - Create the installer scrip.txt
+
+# Standalone test script
+/write_masking.py
+
+# Local installer notes
+/Step 5*
